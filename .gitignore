@@ -1,0 +1,33 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+wp-config.php
+
+# WordPress runtime / uploads (never commit a site)
+wp-content/
+wp-admin/
+wp-includes/
+
+# Dependencies and build output
+vendor/
+node_modules/
+dist/
+build/
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Local tooling and assistant context
+.claude/
+CLAUDE.md
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
